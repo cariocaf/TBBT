@@ -1,0 +1,364 @@
+*{font-family: 'Lato', sans-serif;}
+
+
+
+header
+{
+	background-image: url(../images/todos.jpg);
+    height: 891px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+body{margin: 0;}
+
+
+#logo
+{
+	width: 25%;
+	margin-left: 35px;
+}
+
+section
+{
+	width: 1000px;
+	box-sizing: border-box;
+	padding: 15px;
+	margin: auto;
+}
+
+#sc{
+	background-color:  #306c4a;
+    height: 250px;
+    margin-top: 80px;
+}
+
+.personagem 
+{
+	padding: 5px;
+	color: white;
+    width: 95%; 
+}  
+
+.f
+{
+	display: flex;
+}
+
+.sh{ margin-top: -85px; }
+
+.fl
+{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+#LH{
+	background-color:#e0b98d;
+    height: 277px;
+    margin-top: -1px ;
+}
+
+#HW
+{
+	background-color:  #d4344f;
+	height: 223px;
+    margin-top: -1px ;
+}
+
+
+#RK
+{
+	background-color:#6665a6;
+    height: 250px;
+    margin-top: -1px ;
+}
+
+#R{
+	margin-top: -115px;
+}
+
+#PH
+{
+	background-color:#bf73b1 ;
+    height: 250px;
+    margin-top: -1px ;
+}
+
+#BR
+{
+	background-color:#ddb348;
+    height: 250px;
+    margin-top: -1px ;
+}
+
+#B{margin-top: -105px;}
+
+#AF
+{
+	background-color: #9d8e75;
+}
+
+#l
+{
+   color: white;
+}
+
+
+
+
+
+
+/*-----------------------------media cary ---------------------*/
+
+
+
+@media screen and (max-width: 740px)
+{
+
+header
+
+{
+  width: 100%;
+  height: 203px;
+  background-size: contain;
+  background-position: left;
+}
+
+#logo {
+	width: 23%;
+    margin-left: 20px;
+}
+
+
+.resumo {
+	text-align: left;
+	width: 100%;
+     
+}
+
+
+
+.personagem {width: 93%; color: white;}
+
+
+.tamanho
+ {
+  width: 90%;
+  position: relative;
+  margin-left: 17px;
+}
+
+#sc
+{
+	height: 607px;
+    margin-top: 194px;
+}
+
+
+	#LH
+
+	{
+
+	height: 631px;
+    margin-top: 50px;
+
+	}
+
+
+	#HW 
+	{
+
+	height: 572px;
+    margin-top: 50px;
+	}
+
+    
+    #RK
+
+    {
+
+    height: 535px;
+    margin-top: 50px;
+
+    }
+
+
+     #PH
+
+     {
+
+    height: 535px;
+    margin-top: 50px;
+     }
+ 
+    #BR
+ 
+    {
+ height: 594px;
+    margin-top: 60px;
+
+    }
+
+
+    #AF
+
+    {
+
+ height: 517px;
+    margin-top: 60px;    	
+    }
+
+.f, .fl 
+{
+ display: flex;
+ flex-direction: column-reverse;
+
+
+  }
+
+ 
+  #sh {
+  	position: absolute;
+        right: 6px;
+    bottom: 414px;
+    width: 95%;
+
+  }
+
+
+
+#h 
+{	
+	position: absolute;
+        right: 6px;
+    bottom: 404px;
+    width: 95%;
+}
+
+
+#R 
+{
+		position: absolute;
+        right: 6px;
+    bottom: 370px;
+    width: 95%;
+}
+
+
+ #s 
+     {
+     	position: absolute;
+        right: 6px;
+    bottom: 382px;
+    width: 95%;
+     }
+
+
+
+
+#a
+{
+	position: absolute;
+        right: 6px;
+    bottom: 341px;
+    width: 95%;
+}
+  
+section
+ {
+ 	width: 96%;
+    margin: 0px;
+ }
+
+}
+
+
+
+
+/*-----------------------------media cary (deitado)---------------------*/
+
+
+
+@media screen and (min-width: 689px) and (max-width: 992px)
+{
+   header
+   {
+      width: 100%;
+      height: 416px;
+   }
+
+   .tamanho
+   {
+       width: 100%;
+       position: relative;
+       margin-left: -3px;
+   }
+
+   .personagem
+   {
+        width: 61%;
+    font-size: 13px;
+ }
+
+   #sc,#LH, #HW, #RK, #PH, #BR, #AF
+   {
+
+      height: 240px;
+    margin-top: 54px;
+   }
+
+
+   .f
+   {
+      display: flex;
+   }
+   .fl
+   {
+      display: flex;
+     flex-direction: row-reverse;
+   }
+
+   #sh, #h  ,#s, #a
+   {
+
+    position: absolute;
+    right: 7px;
+    bottom: 17px;
+    width: 43%;
+   }
+
+  #h 
+  {
+   width: 50%;
+   right: -22px;
+  }
+
+
+   #l
+   {
+       width: 100%;
+    font-size: 12px;
+    color: white;
+    margin-left: -30px;
+   }
+
+   #leonard
+   {
+      width: 50%;
+      margin-top: -48px;
+   }
+
+   #R
+   {
+       position: absolute;
+    left: -39px;
+    bottom: 17px;
+    width: 51%;
+   }
+}
+
+
+ 
